@@ -1,0 +1,24 @@
+{
+  "name": "treinamentos",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["backend"],
+  "scripts": {
+    "test": "npm --workspace backend test",
+    "start": "node backend/src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "exceljs": "^4.3.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.4",
+    "pdfkit": "^0.17.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^6.3.4"
+  }
+}
